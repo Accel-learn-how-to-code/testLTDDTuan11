@@ -10,7 +10,6 @@ import {
   Modal,
   TouchableOpacity,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/dist/Ionicons';
 
 //Data
 import items from './Data/data';
@@ -111,3 +110,23 @@ const styles = StyleSheet.create({
     marginRight: 5,
   },
 });
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: 'tomato',
+//     padding: 5,
+//   },
+//   header: {
+//     width: '100%',
+//     flexDirection: 'row',
+//     height: 40,
+//     backgroundColor: '#2196f3',
+//     justifyContent: 'flex-end',
+//     alignItems: 'center',
+//   },
+//   iconHolder: {
+//     marginRight: 5,
+//   },
+// });
+

@@ -37,8 +37,6 @@ export default class AddModal extends Component {
       title,
       description,
       price: Number(price),
-      image:
-        'https://s3-ap-northeast-1.amazonaws.com/ddnbgroup/wp-content/uploads/sites/4/2017/09/29001014/gn-gift_guide_variable_c_2x.jpg',
     };
     console.log('New item: ' + JSON.stringify(newItem));
     items.push(newItem);
