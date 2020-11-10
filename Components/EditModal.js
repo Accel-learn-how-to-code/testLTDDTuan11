@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   },
   openButton: {
     flex: 1,
-    backgroundColor: '#F194FF',
+    backgroundColor: '#2196f3',
     borderRadius: 5,
     padding: 5,
     elevation: 2,

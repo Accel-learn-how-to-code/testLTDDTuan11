@@ -49,6 +49,7 @@ export default class AddModal extends Component {
     this.props.refreshScreen();
   };
 
+  //Tao ID random
   generateId = () => {
     return Math.floor((1 + Math.random()) * 0x10000)
       .toString(16)
@@ -126,7 +127,7 @@ const styles = StyleSheet.create({
   },
   openButton: {
     flex: 1,
-    backgroundColor: '#F194FF',
+    backgroundColor: '#2196f3',
     borderRadius: 5,
     padding: 5,
     elevation: 2,

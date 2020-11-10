@@ -49,21 +49,8 @@ export default class App extends Component {
     return (
       <>
         <Header controlModal={() => this.headerModal.controlModal()} />
-        <ScrollView style={{backgroundColor: 'tomato'}}>
+        <ScrollView style={{backgroundColor: '#fff'}}>
           <View style={styles.container}>
-            {/* <FlatList
-            ref={(value) => (this.flatList = value)}
-            data={items}
-            renderItem={({item}) => {
-              return (
-                <ListItem
-                  controlModal={() => this.selectModal.controlModal(item.id)}
-                  item={item}
-                />
-              );
-            }}
-            keyExtractor={(item) => item.id}
-          /> */}
             {itemsList}
             <HeaderModal
               ref={(value) => (this.headerModal = value)}
@@ -111,22 +98,4 @@ const styles = StyleSheet.create({
   },
 });
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: 'tomato',
-//     padding: 5,
-//   },
-//   header: {
-//     width: '100%',
-//     flexDirection: 'row',
-//     height: 40,
-//     backgroundColor: '#2196f3',
-//     justifyContent: 'flex-end',
-//     alignItems: 'center',
-//   },
-//   iconHolder: {
-//     marginRight: 5,
-//   },
-// });
 
